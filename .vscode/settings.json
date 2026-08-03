@@ -1,0 +1,18 @@
+{
+  "cSpell.words": ["adsbygoogle", "daniele", "iccicci", "ricci", "sardoloop"],
+  "cSpell.language": "en,it",
+  "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint", "source.fixAll.eslint"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.nodePath": "./node_modules/.bin/eslint",
+  "eslint.options": { "overrideConfigFile": "./eslint.config.js" },
+  "eslint.useFlatConfig": true,
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "explorer.confirmDelete": false,
+  "files.autoSave": "off",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}

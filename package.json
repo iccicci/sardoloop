@@ -1,0 +1,47 @@
+{
+  "description": "Sardinian music generator",
+  "name": "sardoloop",
+  "license": "MIT",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "packages": "yarn-upgrade-all --ignore-workspace-root-check"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSameLine": false,
+    "endOfLine": "lf",
+    "printWidth": 150,
+    "singleAttributePerLine": false,
+    "trailingComma": "none",
+    "useTabs": false
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "eslint": "^10.4.0",
+    "eslint-plugin-perfectionist": "^5.9.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "eslint-plugin-simple-import-sort": "^13.0.0",
+    "globals": "^17.6.0",
+    "i18next": "^26.2.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-i18next": "^17.0.8",
+    "react-router-dom": "^7.15.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.0",
+    "vite": "^8.0.14",
+    "yarn-upgrade-all": "^0.8.1"
+  }
+}
