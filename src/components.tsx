@@ -9,7 +9,7 @@ export const Back = ({ lang }: CommonProps) => {
 
   return <>
     {t("back")}
-    <Link to={`/${lang}/sardoloop`}>home page</Link>.
+    <Link to={`/${lang}`}>home page</Link>.
   </>;
 };
 
@@ -25,7 +25,7 @@ export const Footer = ({ lang }: CommonProps) => {
     <br />
     <hr />
     <br />
-    <Link to={`/${lang}/sardoloop`}>Home page</Link>
+    <Link to={`/${lang}`}>Home page</Link>
     {" - "}
     <Link to={footerUrls[lang].original}>{t("home.original")}</Link>
     {" - "}
